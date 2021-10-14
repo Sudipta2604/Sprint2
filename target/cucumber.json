@@ -1,0 +1,1393 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Automates login and navigate to dashboard of Retail Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11701330500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page",
+            "match": {
+              "location": "RRD.admin_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 505062100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters username and password",
+            "match": {
+              "location": "RRD.admin_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2413519300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "RRD.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin goes to dashboard",
+            "match": {
+              "location": "RRD.admin_goes_to_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95329900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on menu",
+            "match": {
+              "location": "RRD.admin_clicks_on_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149384700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on Reports",
+            "match": {
+              "location": "RRD.admin_clicks_on_Reports()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin goes to repots section",
+            "match": {
+              "location": "RRD.admin_goes_to_repots_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2333371000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Admin clicks on Sales",
+            "match": {
+              "location": "RRD.admin_clicks_on_Sales()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 314400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Admin goes to Sales section",
+            "match": {
+              "location": "RRD.admin_goes_to_Sales_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:24:59.670Z",
+        "line": 26,
+        "name": "Verify dates for Order section",
+        "description": "",
+        "id": "automation-for-retail-website;verify-dates-for-order-section;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 796674900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Admin clicks on order",
+            "match": {
+              "location": "RRD.admin_clicks_on_order()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17045700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Admin is redirected to order report section",
+            "match": {
+              "location": "RRD.admin_is_redirected_to_order_report_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3288480100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Admin clicks on StartDate field",
+            "match": {
+              "location": "RRD.admin_clicks_on_StartDate_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3119927200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Admin give \"2021-10-22\" in startdate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-10-22\"",
+                  "offset": 11
+                }
+              ],
+              "location": "RRD.admin_give_in_startdate_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4212236300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Admin clicks on EndDate field",
+            "match": {
+              "location": "RRD.admin_clicks_on_EndDate_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3138815700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Admin give \"2021-11-26\" in enddate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-11-26\"",
+                  "offset": 11
+                }
+              ],
+              "location": "RRD.admin_give_in_enddate_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1330359000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Admin clicks on filter",
+            "match": {
+              "location": "RRD.admin_clicks_on_filter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64648700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Admin checks the result table for order report",
+            "match": {
+              "location": "RRD.admin_checks_the_result_table_for_order_report()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automates login and navigate to dashboard of Retail Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9027065000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page",
+            "match": {
+              "location": "RRD.admin_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 388857600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters username and password",
+            "match": {
+              "location": "RRD.admin_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1809924200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "RRD.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin goes to dashboard",
+            "match": {
+              "location": "RRD.admin_goes_to_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103623300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on menu",
+            "match": {
+              "location": "RRD.admin_clicks_on_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122333000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on Reports",
+            "match": {
+              "location": "RRD.admin_clicks_on_Reports()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin goes to repots section",
+            "match": {
+              "location": "RRD.admin_goes_to_repots_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2416696000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Admin clicks on Sales",
+            "match": {
+              "location": "RRD.admin_clicks_on_Sales()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Admin goes to Sales section",
+            "match": {
+              "location": "RRD.admin_goes_to_Sales_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:25:32.866Z",
+        "line": 28,
+        "name": "Verify the Drop down fields for Order section",
+        "description": "",
+        "id": "automation-for-retail-website;verify-the-drop-down-fields-for-order-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 720818500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Admin clicks on order section",
+            "match": {
+              "location": "RRD.admin_clicks_on_order_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20186700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Admin is on   order report section",
+            "match": {
+              "location": "RRD.admin_is_on_order_report_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 203404900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Admin clicks on Groupby field",
+            "match": {
+              "location": "RRD.admin_clicks_on_Groupby_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4307238900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Admin choose option from drop down menu",
+            "match": {
+              "location": "RRD.admin_choose_option_from_drop_down_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140650200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Admin clicks on Otherstatus field",
+            "match": {
+              "location": "RRD.admin_clicks_on_Otherstatus_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4325396700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Admin choose options",
+            "match": {
+              "location": "RRD.admin_choose_options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1334592500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Admin hit filter button",
+            "match": {
+              "location": "RRD.admin_hit_filter_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129431500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "checks if there is any result showing for order table",
+            "match": {
+              "location": "RRD.checks_if_there_is_any_result_showing_for_order_table()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automates login and navigate to dashboard of Retail Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14331039000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page",
+            "match": {
+              "location": "RRD.admin_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304343200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters username and password",
+            "match": {
+              "location": "RRD.admin_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2734003700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "RRD.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin goes to dashboard",
+            "match": {
+              "location": "RRD.admin_goes_to_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 98605200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on menu",
+            "match": {
+              "location": "RRD.admin_clicks_on_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135702900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on Reports",
+            "match": {
+              "location": "RRD.admin_clicks_on_Reports()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin goes to repots section",
+            "match": {
+              "location": "RRD.admin_goes_to_repots_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2116910100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Admin clicks on Sales",
+            "match": {
+              "location": "RRD.admin_clicks_on_Sales()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Admin goes to Sales section",
+            "match": {
+              "location": "RRD.admin_goes_to_Sales_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:25:57.923Z",
+        "line": 50,
+        "name": "Verify dates for Tax section",
+        "description": "",
+        "id": "automation-for-retail-website;verify-dates-for-tax-section;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1348447900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Admin clicks on tax",
+            "match": {
+              "location": "RRD.admin_clicks_on_tax()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8753900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Admin is redirected to tax report section",
+            "match": {
+              "location": "RRD.admin_is_redirected_to_tax_report_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3243453500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Admin clicks on StartDate field of tax report",
+            "match": {
+              "location": "RRD.admin_clicks_on_StartDate_field_of_tax_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3091894300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Admin give \"2021-9-23\" in startdate field of tax report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-9-23\"",
+                  "offset": 11
+                }
+              ],
+              "location": "RRD.admin_give_in_startdate_field_of_tax_report(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4201030400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Admin clicks on EndDate field of tax report",
+            "match": {
+              "location": "RRD.admin_clicks_on_EndDate_field_of_tax_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3087795500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Admin give \"2021-10-5\" in enddate field of tax report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-10-5\"",
+                  "offset": 11
+                }
+              ],
+              "location": "RRD.admin_give_in_enddate_field_of_tax_report(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1380829300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Admin clicks on filter of tax report page",
+            "match": {
+              "location": "RRD.admin_clicks_on_filter_of_tax_report_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 188360800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Admin checks the result table for tax report",
+            "match": {
+              "location": "RRD.admin_checks_the_result_table_for_tax_report()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automates login and navigate to dashboard of Retail Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18160792700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page",
+            "match": {
+              "location": "RRD.admin_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 380565000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters username and password",
+            "match": {
+              "location": "RRD.admin_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3029993400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "RRD.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231899,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin goes to dashboard",
+            "match": {
+              "location": "RRD.admin_goes_to_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99146900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on menu",
+            "match": {
+              "location": "RRD.admin_clicks_on_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130580300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on Reports",
+            "match": {
+              "location": "RRD.admin_clicks_on_Reports()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin goes to repots section",
+            "match": {
+              "location": "RRD.admin_goes_to_repots_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2457774200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Admin clicks on Sales",
+            "match": {
+              "location": "RRD.admin_clicks_on_Sales()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259801,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Admin goes to Sales section",
+            "match": {
+              "location": "RRD.admin_goes_to_Sales_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:26:34.198Z",
+        "line": 52,
+        "name": "Verify the Drop down fields for tax section",
+        "description": "",
+        "id": "automation-for-retail-website;verify-the-drop-down-fields-for-tax-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1474239199,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Admin clicks on tax section",
+            "match": {
+              "location": "RRD.admin_clicks_on_tax_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42007100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Admin is on  tax report section",
+            "match": {
+              "location": "RRD.admin_is_on_tax_report_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 182891300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Admin clicks on Groupby field of tax report",
+            "match": {
+              "location": "RRD.admin_clicks_on_Groupby_field_of_tax_report()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4247075301,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Admin choose option from drop down menu of tax report",
+            "match": {
+              "location": "RRD.admin_choose_option_from_drop_down_menu_of_tax_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661033701,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Admin clicks on Otherstatus field of tax report",
+            "match": {
+              "location": "RRD.admin_clicks_on_Otherstatus_field_of_tax_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4343853601,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Admin choose options of tax report",
+            "match": {
+              "location": "RRD.admin_choose_options_of_tax_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1369530500,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Admin hit filter button of tax report page",
+            "match": {
+              "location": "RRD.admin_hit_filter_button_of_tax_report_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 141209100,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "checks if there is any result showing for order table of tax report",
+            "match": {
+              "location": "RRD.checks_if_there_is_any_result_showing_for_order_table_of_tax_report()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automates login and navigate to dashboard of Retail Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14911639999,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page",
+            "match": {
+              "location": "RRD.admin_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 301923599,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters username and password",
+            "match": {
+              "location": "RRD.admin_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2435309200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "RRD.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin goes to dashboard",
+            "match": {
+              "location": "RRD.admin_goes_to_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97790100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on menu",
+            "match": {
+              "location": "RRD.admin_clicks_on_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113867800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on Reports",
+            "match": {
+              "location": "RRD.admin_clicks_on_Reports()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92901,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin goes to repots section",
+            "match": {
+              "location": "RRD.admin_goes_to_repots_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2375522400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Admin clicks on Sales",
+            "match": {
+              "location": "RRD.admin_clicks_on_Sales()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202901,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Admin goes to Sales section",
+            "match": {
+              "location": "RRD.admin_goes_to_Sales_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:27:10.925Z",
+        "line": 74,
+        "name": "Verify dates for Shipping  section",
+        "description": "",
+        "id": "automation-for-retail-website;verify-dates-for-shipping--section;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 910931099,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Admin clicks on shipping",
+            "match": {
+              "location": "RRD.admin_clicks_on_shipping()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11490900,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Admin is redirected to shipping report section",
+            "match": {
+              "location": "RRD.admin_is_redirected_to_shipping_report_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3447966801,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Admin clicks on StartDate field of shipping report",
+            "match": {
+              "location": "RRD.admin_clicks_on_StartDate_field_of_shipping_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3104739900,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Admin give \"2021-08-22\" in startdate field of shipping report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-08-22\"",
+                  "offset": 11
+                }
+              ],
+              "location": "RRD.admin_give_in_startdate_field_of_shipping_report(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4338902199,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Admin clicks on EndDate field  of shipping report",
+            "match": {
+              "location": "RRD.admin_clicks_on_EndDate_field_of_shipping_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3074900500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Admin give \"2021-10-10\" in enddate field of shipping report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-10-10\"",
+                  "offset": 11
+                }
+              ],
+              "location": "RRD.admin_give_in_enddate_field_of_shipping_report(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1323581699,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Admin clicks on filter of shipping report page",
+            "match": {
+              "location": "RRD.admin_clicks_on_filter_of_shipping_report_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99319900,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Admin checks the result table for order report  of shipping report",
+            "match": {
+              "location": "RRD.admin_checks_the_result_table_for_order_report_of_shipping_report()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Automates login and navigate to dashboard of Retail Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18344500700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page",
+            "match": {
+              "location": "RRD.admin_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 331088900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters username and password",
+            "match": {
+              "location": "RRD.admin_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2548096001,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "RRD.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin goes to dashboard",
+            "match": {
+              "location": "RRD.admin_goes_to_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88792400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on menu",
+            "match": {
+              "location": "RRD.admin_clicks_on_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121395500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on Reports",
+            "match": {
+              "location": "RRD.admin_clicks_on_Reports()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143901,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin goes to repots section",
+            "match": {
+              "location": "RRD.admin_goes_to_repots_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48878500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Admin clicks on Sales",
+            "match": {
+              "location": "RRD.admin_clicks_on_Sales()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95999,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Admin goes to Sales section",
+            "match": {
+              "location": "RRD.admin_goes_to_Sales_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:27:47.480Z",
+        "line": 76,
+        "name": "Verify the Drop down fields for Shipping section",
+        "description": "",
+        "id": "automation-for-retail-website;verify-the-drop-down-fields-for-shipping-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37558899,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Admin clicks on shipping section",
+            "match": {
+              "location": "RRD.admin_clicks_on_shipping_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5672700,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Admin is on   shipping report section",
+            "match": {
+              "location": "RRD.admin_is_on_shipping_report_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23792200,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Admin clicks on Groupby field of shipping report",
+            "match": {
+              "location": "RRD.admin_clicks_on_Groupby_field_of_shipping_report()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26100799,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Admin choose option from drop down menu of shipping report",
+            "match": {
+              "location": "RRD.admin_choose_option_from_drop_down_menu_of_shipping_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114604301,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Admin clicks on Otherstatus field of shipping report",
+            "match": {
+              "location": "RRD.admin_clicks_on_Otherstatus_field_of_shipping_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312639100,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Admin choose options of shipping report",
+            "match": {
+              "location": "RRD.admin_choose_options_of_shipping_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18578899,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Admin hit filter button of shipping report page",
+            "match": {
+              "location": "RRD.admin_hit_filter_button_of_shipping_report_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20536201,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "checks if there is any result showing for order table  of shipping report",
+            "match": {
+              "location": "RRD.checks_if_there_is_any_result_showing_for_order_table_of_shipping_report()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Automation for retail website",
+    "description": "",
+    "id": "automation-for-retail-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/RRF.feature",
+    "tags": []
+  }
+]
