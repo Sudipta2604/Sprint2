@@ -10,10 +10,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/java/Feature",
 		
-		glue = {"stepDefinition"}
+		glue = {"stepDefinition", "hook"},
 	//	dryRun = true,
 	//	monochrome=true,
-				//plugin={"pretty","html:target/cucumber-pretty","junit:target/cucumber.xml","json:target/cucumber.json"}
+				plugin={"pretty","html:target/cucumber-pretty","junit:target/cucumber.xml","json:target/cucumber.json"}
 		)
 public class RRR {
 

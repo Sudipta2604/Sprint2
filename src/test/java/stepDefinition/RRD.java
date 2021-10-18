@@ -1,26 +1,32 @@
 package stepDefinition;
 
-import static org.junit.Assert.fail;
+
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import hook.hookclass;
 
 public class RRD {
-
-	WebDriver driver;
+	WebDriver driver = hookclass.driver;
+	//WebDriver driver;
 	@Given("Admin is on login page")
 	public void admin_is_on_login_page() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sudipta\\Documents\\capgi_JS_workspace\\capgeminiDay1\\chromedriver.exe"); 
-
-		driver=new ChromeDriver();
-		driver.get("http://retailm1.upskills.in/admin");
-		driver.manage().window().maximize();
+		
+	
+		/*
+		 * System.setProperty("webdriver.chrome.driver",
+		 * "C:\\Users\\Sudipta\\Documents\\capgi_JS_workspace\\capgeminiDay1\\chromedriver.exe"
+		 * );
+		 * 
+		 * driver=new ChromeDriver(); driver.get("http://retailm1.upskills.in/admin");
+		 * driver.manage().window().maximize();
+		 */
 		System.out.println("User is on login page");
 	}
 

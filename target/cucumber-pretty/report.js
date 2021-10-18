@@ -65,6 +65,9 @@ formatter.background({
   "description": "",
   "keyword": "Background"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "Admin is on login page",
   "keyword": "Given "
@@ -240,10 +243,16 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.background({
   "name": "Automates login and navigate to dashboard of Retail Website",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on login page",
@@ -420,6 +429,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenarioOutline({
   "name": "Verify dates for Tax section",
   "description": "",
@@ -480,6 +492,9 @@ formatter.background({
   "name": "Automates login and navigate to dashboard of Retail Website",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on login page",
@@ -656,10 +671,16 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.background({
   "name": "Automates login and navigate to dashboard of Retail Website",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on login page",
@@ -836,6 +857,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenarioOutline({
   "name": "Verify dates for Shipping  section",
   "description": "",
@@ -896,6 +920,9 @@ formatter.background({
   "name": "Automates login and navigate to dashboard of Retail Website",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on login page",
@@ -1072,10 +1099,16 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.background({
   "name": "Automates login and navigate to dashboard of Retail Website",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on login page",
@@ -1250,6 +1283,9 @@ formatter.match({
   "location": "RRD.checks_if_there_is_any_result_showing_for_order_table_of_shipping_report()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });

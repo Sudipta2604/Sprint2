@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="189.824243">
-    <testcase classname="Automation for retail website" name="Verify dates for Order section" time="33.182882">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="142.046896">
+    <testcase classname="Automation for retail website" name="Verify dates for Order section" time="39.07832">
         <system-out><![CDATA[Given Admin is on login page................................................passed
 When Admin enters username and password.....................................passed
 And Admin clicks on login button............................................passed
@@ -20,7 +20,7 @@ Then Admin clicks on filter.................................................pass
 And Admin checks the result table for order report..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation for retail website" name="Verify the Drop down fields for Order section" time="25.052329">
+    <testcase classname="Automation for retail website" name="Verify the Drop down fields for Order section" time="23.735558">
         <system-out><![CDATA[Given Admin is on login page................................................passed
 When Admin enters username and password.....................................passed
 And Admin clicks on login button............................................passed
@@ -40,7 +40,7 @@ Then Admin hit filter button................................................pass
 And checks if there is any result showing for order table...................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation for retail website" name="Verify dates for Tax section" time="36.273173">
+    <testcase classname="Automation for retail website" name="Verify dates for Tax section" time="10.812579">
         <system-out><![CDATA[Given Admin is on login page................................................passed
 When Admin enters username and password.....................................passed
 And Admin clicks on login button............................................passed
@@ -60,7 +60,7 @@ Then Admin clicks on filter of tax report page..............................pass
 And Admin checks the result table for tax report............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation for retail website" name="Verify the Drop down fields for tax section" time="36.722701">
+    <testcase classname="Automation for retail website" name="Verify the Drop down fields for tax section" time="22.647288">
         <system-out><![CDATA[Given Admin is on login page................................................passed
 When Admin enters username and password.....................................passed
 And Admin clicks on login button............................................passed
@@ -80,7 +80,7 @@ Then Admin hit filter button of tax report page.............................pass
 And checks if there is any result showing for order table of tax report.....passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation for retail website" name="Verify dates for Shipping  section" time="36.549542">
+    <testcase classname="Automation for retail website" name="Verify dates for Shipping  section" time="30.731667">
         <system-out><![CDATA[Given Admin is on login page................................................passed
 When Admin enters username and password.....................................passed
 And Admin clicks on login button............................................passed
@@ -100,7 +100,7 @@ Then Admin clicks on filter of shipping report page.........................pass
 And Admin checks the result table for order report  of shipping report......passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation for retail website" name="Verify the Drop down fields for Shipping section" time="22.043616">
+    <testcase classname="Automation for retail website" name="Verify the Drop down fields for Shipping section" time="15.041484">
         <system-out><![CDATA[Given Admin is on login page................................................passed
 When Admin enters username and password.....................................passed
 And Admin clicks on login button............................................passed
